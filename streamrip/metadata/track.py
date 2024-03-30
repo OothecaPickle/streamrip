@@ -55,7 +55,8 @@ class TrackMetadata:
         artist = typed(
             safe_get(
                 resp,
-                "performer",
+                "album",
+                "artist",
                 "name",
             ),
             str,
