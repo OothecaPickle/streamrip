@@ -7,6 +7,9 @@ A scriptable stream downloader for Qobuz, Tidal, Deezer and SoundCloud.
 
 ![downloading an album](https://github.com/nathom/streamrip/blob/dev/demo/download_album.png?raw=true)
 
+## Notes
+Requires https://github.com/OothecaPickle/aiohttp/tree/3.13.0-termux-dns-fix on Android
+
 ## Features
 
 - Fast, concurrent downloads powered by `aiohttp`
