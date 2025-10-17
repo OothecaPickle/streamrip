@@ -8,7 +8,13 @@ A scriptable stream downloader for Qobuz, Tidal, Deezer and SoundCloud.
 ![downloading an album](https://github.com/nathom/streamrip/blob/dev/demo/download_album.png?raw=true)
 
 ## Notes
-Requires https://github.com/OothecaPickle/aiohttp/tree/3.13.0-termux-dns-fix on Android
+~~Requires https://github.com/OothecaPickle/aiohttp/tree/3.13.0-termux-dns-fix on Android~~\
+This will fix streamrip on Android, but it's better to instead just uninstall `aiodns` as per nathom/streamrip#894:
+```bash
+source /data/data/com.termux/files/home/.local/share/pipx/venvs/streamrip/bin/activate
+python -m pip uninstall aiodns
+deactivate
+```
 
 ## Features
 
